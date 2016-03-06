@@ -8,12 +8,13 @@
 # Site settings
 title: Greg Conant
 email: greg@gregconant.com
-description:  # this means to ignore newlines until "baseurl:"
-  I am a software developer. These are my thoughts and findings about technical things that I am otherwise bound to forget.
+description:  I am a software developer. These are my thoughts and findings about technical things that I find noteworthy, or am otherwise bound to forget.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://gregconant.com" # the base hostname & protocol for your site
 twitter_username: gregmconant
 github_username:  gregconant
+post_limit: 5
+footer_left: "Theme by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
 
 # Build settings
 markdown: kramdown
