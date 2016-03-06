@@ -9,8 +9,7 @@
 title: Site Names Are Hard
 email: greg@gregconant.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site is intended to be a collection of my thoughts and findings
-  about technical things that I am thinking about and want to record for later.
+  My thoughts and findings about technical things.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: gregmconant
