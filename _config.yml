@@ -15,5 +15,7 @@ url: "http://gregconant.com" # the base hostname & protocol for your site
 twitter_username: gregmconant
 github_username:  gregconant
 
+footer_left: "Theme by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+
 # Build settings
 markdown: kramdown
