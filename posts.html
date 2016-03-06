@@ -18,20 +18,21 @@ layout: default
         <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
         <ul>
       {% endif %}
-
           <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%-d %b" }} - {{ post.title }}</a>
           </li>
       {% if forloop.last %}
         </ul>
       </div>
       {% else %}
         {% if this_year != next_year %}
-          </ul>
-        </div>
+    </div>
+</div>
+          <ul>
+        
         <div class="col-md-12 content-panel articles">
           <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          <ul>
+          </ul>
         {% endif %}
     {% endif %}
 
