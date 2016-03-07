@@ -26,17 +26,16 @@ layout: default
       </div>
       {% else %}
         {% if this_year != next_year %}
-    </div>
-</div>
-          <ul>
-        
-        <div class="col-md-12 content-panel articles">
-          <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-          </ul>
+      <div class="col-md-12 content-panel articles">
+        <ul>
+            <div class="col-md-12 content-panel articles">
+                <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+            </div>
+        </ul>
+      </div>
         {% endif %}
     {% endif %}
 
     {% endfor %}
     </div>
-
-  </div>
+</div>
