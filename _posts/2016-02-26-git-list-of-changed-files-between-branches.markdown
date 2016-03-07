@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Diffing All Changed Files Between Branches"
+title:  "Git - Diffing All Changed Files Between Branches"
 date:   2016-02-26 12:00:00 -0500
 categories: git visual-studio
 ---
