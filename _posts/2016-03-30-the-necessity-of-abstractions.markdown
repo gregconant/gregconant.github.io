@@ -3,7 +3,7 @@ layout: post
 title:  "The Necessity of Abstractions"
 date:   2016-03-30 12:00:00 -0500
 categories: general design abstraction
---------------------------------------
+---
 
 We've been dealing with some pretty old code lately. And by "lately", I mean "always". As a result, we have frequent discussions about refactoring (and, jokingly, rewriting the entire thing). Which, I think we can all agree, is rarely possible or realistic.
 
