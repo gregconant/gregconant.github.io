@@ -13,7 +13,7 @@ It's been generally agreed that you should write tests around your legacy code a
 
 In addition to making your code able to be tested, it should accomplish the additional benefits of making your code more loosely coupled, and more readable.
 
-From a high level, this is done by adding abstractions. One of the biggest problems with legacy code is often is misuse (or complete lack of) abstractions.
+From a high level, this is done by adding abstractions. One of the biggest problems with legacy code is often is misuse (or complete lack) of abstractions.
 
 You'll often see some server-side code that contains the entire business case in one giant function, from handling UI logic down to persisting to the database. This tight coupling makes it much harder to test, and makes it so you have to understand every line of the function in order to work on any of it.
   
@@ -25,6 +25,6 @@ A colleague at a former employer also verbally opposed the idea of putting logic
 
 Maybe I'm just not smart enough to keep that much in my head at once. But I find it so much easier to be able to compartmentalize problems and only worry about certain parts of the code at a time.
 
-I once heard someone advocate once that all your code in a function should be at about the same level of abstraction and domain logic. So if you execute "DoABusinessThing()", you shouldn't then have, at the same level, a fiddly loop that handles lists or array indexes and does some math. Even if you just push that into a function that you give a clearer name to, the reader can keep only the high-level steps in mind without worrying about implementation details.
+I once heard someone advocate that all your code in a function should be at about the same level of abstraction and domain logic. So if you execute "DoABusinessThing()", you shouldn't then have, at the same level, a fiddly loop that handles lists or array indexes and does some math. Even if you just push that into a function that you give a clearer name to, the reader can keep only the high-level steps in mind without worrying about implementation details.
 
 It surprises me that a developer would be so opposed to introducing abstractions. If you think that introducing abstractions adds complexity instead of reducing it, your abstractions are probably not very abstract at all.
